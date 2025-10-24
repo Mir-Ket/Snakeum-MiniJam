@@ -112,7 +112,6 @@ public class PlayerController : MonoBehaviour
         else
         {
             _gravityDirectionPower -= _gravity * Time.deltaTime;
-
         }
     }
     private void Look()
