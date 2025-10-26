@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class RightObjectController : MonoBehaviour,IInteractable
 {
+
     [SerializeField] GameObject _nextSceneObject;
+    [SerializeField] AudioSource _audioSource;
     public void Interact()
     {
         RightObject();
@@ -11,5 +13,6 @@ public class RightObjectController : MonoBehaviour,IInteractable
     {
         Debug.Log("AAAAAAAA");
         _nextSceneObject.SetActive(true);
+        _audioSource.Play();
     }
 }
