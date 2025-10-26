@@ -6,13 +6,28 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartScene.unity
+    path: Assets/Scenes/Game Scene/StartScene.unity
     guid: c0e388053dfae3943a72cf5a407392ea
   - enabled: 1
-    path: Assets/Scenes/Mirket.unity
-    guid: 98fc37ac5df3bb54795702e26663e91f
+    path: Assets/Scenes/Game Scene/Level 1.unity
+    guid: 1576e4c2c2cfae8469a1d2facb47d15d
   - enabled: 1
-    path: Assets/Scenes/EndScene.unity
+    path: Assets/Scenes/Game Scene/Level 2.unity
+    guid: 937b2eaa79fd7674289f6718efc9acd6
+  - enabled: 1
+    path: Assets/Scenes/Game Scene/Level 3.unity
+    guid: eb471b5ecd3e8da42962813c2d140616
+  - enabled: 1
+    path: Assets/Scenes/Game Scene/Level 4.unity
+    guid: 6f1cf97b115c31248ba13a262b249772
+  - enabled: 1
+    path: Assets/Scenes/Game Scene/Level 5.unity
+    guid: 285383d1f0bac6547972d294d5fcaed8
+  - enabled: 1
+    path: Assets/Scenes/Game Scene/Level 6.unity
+    guid: 1c02ef603c93ed44987bd59a549b1486
+  - enabled: 1
+    path: Assets/Scenes/Game Scene/EndScene.unity
     guid: a6289a59e3cb768439efd6a778600173
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

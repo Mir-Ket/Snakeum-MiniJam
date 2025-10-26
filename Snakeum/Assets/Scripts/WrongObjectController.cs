@@ -14,7 +14,7 @@ public class WrongObjectController : MonoBehaviour,IInteractable
     { 
         _wrongObject.SetActive(false);
 
-        Invoke(nameof(Delay), 3f);
+        Invoke(nameof(Delay), 5f);
     }
     private void Delay()
     {
